@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 import {
   FaLinkedinIn,
@@ -13,7 +13,7 @@ import { SiTailwindcss, SiJavascript } from "react-icons/si";
 import { Header } from "./components/MainHeader/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
