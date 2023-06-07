@@ -27,7 +27,7 @@ export function Navbar() {
 {
   /* <button> */
 }
-<FaTimes className="nav-btn nav-close-btn" /*onclick={showNavbar}*/ />;
+<FaTimes className="nav-btn nav-close-btn" /*onclick={}*/ />;
 // </button>
 
 {
