@@ -1,5 +1,4 @@
-// import { useState } from "react";
-
+import React from "react";
 import {
   FaLinkedinIn,
   FaGithub,
@@ -10,15 +9,15 @@ import {
 
 import { SiTailwindcss, SiJavascript } from "react-icons/si";
 
-import { Header } from "./components/MainHeader/Header";
+import { Navbar } from "./components/MainHeader/Navbar";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
-      <Header />
-      <div style={{ backgroundColor: "#555" }}>
+      <React.Fragment>
+        <Navbar />
+      </React.Fragment>
+      <div className="bg-gray-100">
         <div>
           <h1>Front-End React Developer</h1>
           <p>
@@ -68,7 +67,7 @@ function App() {
         </div>
       </div>
 
-      <div style={{ backgroundColor: "#555" }}>
+      <div className="bg-gray-100">
         <div>
           <h1>PORTFOLIO</h1>
           <h2>Each project is a unique piece of development🧩</h2>
