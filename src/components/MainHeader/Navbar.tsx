@@ -2,7 +2,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 export function Navbar() {
   return (
-    <header className="box flex justify-between items-center p-3 font-Poppins">
+    <header className="box flex justify-between items-center p-3 font-Poppins shadow-md">
       <h3 className="text-gray-800 text-xl cursor-pointer block font-bold my-3 px-10">
         Felipe.dev
       </h3>

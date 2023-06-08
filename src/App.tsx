@@ -1,51 +1,16 @@
-import React from "react";
-import {
-  FaLinkedinIn,
-  FaGithub,
-  FaHtml5,
-  FaCss3Alt,
-  FaBootstrap,
-} from "react-icons/fa";
 
-import { SiTailwindcss, SiJavascript } from "react-icons/si";
 
 import { Navbar } from "./components/MainHeader/Navbar";
+import { Home } from "./components/Home/Home"
 
 function App() {
   return (
     <>
-      <React.Fragment>
         <Navbar />
-      </React.Fragment>
-      <div className="bg-gray-100">
-        <div>
-          <h1>Front-End React Developer</h1>
-          <p>
-            Hi, I'm Felipe Figueiredo. A passionate Front-end React Developer
-            based in Belo Horizonte, Brazil.
-          </p>
-          <FaLinkedinIn />
-          <FaGithub />
-        </div>
-        <div>
-          <img
-            src="https://media.licdn.com/dms/image/D4D03AQEIVJnHZV2jJQ/profile-displayphoto-shrink_200_200/0/1683295089907?e=1691625600&v=beta&t=C3H4Kle9mZ7WKyX1gOFZ7iD9zOKf1h0NUW7gBPLm8YM"
-            alt=""
-          />
-        </div>
-        <div>
-          <div>
-            <p>Tech Stack</p>
-          </div>
-          <div>
-            <FaHtml5 />
-            <FaCss3Alt />
-            <SiJavascript />
-            <SiTailwindcss />
-            <FaBootstrap />
-          </div>
-        </div>
-      </div>
+        <Home />
+
+
+
 
       <div>
         <div>
