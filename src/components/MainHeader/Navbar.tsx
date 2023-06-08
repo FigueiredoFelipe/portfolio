@@ -7,16 +7,16 @@ export function Navbar() {
         Felipe.dev
       </h3>
       <nav className="flex gap-6 font-semibold text-base p-4 pr-16">
-        <a href="/#" className="hover:text-blue-500">
+        <a href="/#" className="hover:text-[#075df5]">
           Home
         </a>
-        <a href="/#" className="hover:text-blue-500">
+        <a href="/#" className="hover:text-[#075df5]">
           About
         </a>
-        <a href="/#" className="hover:text-blue-500">
+        <a href="/#" className="hover:text-[#075df5]">
           Projects
         </a>
-        <a href="/#" className="hover:text-blue-500">
+        <a href="/#" className="hover:text-[#075df5]">
           Contact
         </a>
       </nav>
