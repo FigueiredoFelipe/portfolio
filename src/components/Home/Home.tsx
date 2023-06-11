@@ -17,9 +17,9 @@ export function Home() {
               Hi, I'm Felipe Figueiredo. A passionate Front-end React Developer
               based in Belo Horizonte, Brazil.
             </p>
-            <div className="flex space-x-2">
-              <FaLinkedin class="home-icon" />
-              <FaGithubSquare class="home-icon" />
+            <div className="text-3xl flex space-x-2">
+              <FaLinkedin class="hover:fill-blue-700" />
+              <FaGithubSquare class="hover:fill-blue-700" />
             </div>
           </div>
           <div className="flex justify-center items-center">
