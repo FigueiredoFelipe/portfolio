@@ -7,7 +7,7 @@ import { TechStack } from "./TechStack";
 export function Home() {
   return (
     <section className="font-Poppins text-gray-800">
-      <div className="bg-gray-100 shadow-inner pt-20 p-12 justify-center">
+      <div className="bg-gray-100 shadow-inner py-12 p-12 justify-center">
         <div className="flex justify-center">
           <div className="max-w-[38rem]">
             <h1 className="text-[3.4rem] font-bold pt-12 max-w-[45rem] mb-[1rem] mt-[2rem] leading-[1.2]">
