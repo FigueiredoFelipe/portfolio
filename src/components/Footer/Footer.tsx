@@ -8,7 +8,7 @@ export function Footer() {
             Copyright © 2023. All rights are reserved
           </p>
         </div>
-        <div className="text-3xl text-white flex space-x-2 pl-20">
+        <div className="text-2xl text-white flex space-x-2 pl-20">
           <FaLinkedin class="fill-white hover:scale-125 duration-300" />
           <FaGithubSquare class="fill-white hover:scale-125 duration-300" />
         </div>

@@ -13,8 +13,8 @@ export function AboutMe() {
             />
           </div>
           <div className="max-w-[30rem]  p-[1.5rem]">
-            <h1 className="text-blue-500 font-extrabold text-base">ABOUT ME</h1>
-            <h4 className="font-extrabold text-[1.6rem]">
+            <h1 className="text-blue-600 font-extrabold text-lg">ABOUT ME</h1>
+            <h4 className="font-extrabold text-2xl">
               A dedicated Front-end React Developer based in Belo Horizonte,
               Brazil.
             </h4>

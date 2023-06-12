@@ -2,8 +2,8 @@ export function Portfolio() {
   return (
     <>
       <div className="bg-gray-100 container max-w-full flex justify-center items-center">
-        <div className="container max-w-3xl py-12">
-          <h1>PORTFOLIO</h1>
+        <div className="container  py-12">
+          <h1 className="text-blue-500 font-extrabold text-lg">PORTFOLIO</h1>
           <h2>Each project is a unique piece of development🧩</h2>
           <p>
             As a Junior Front-End Developer, I possess an impressive arsenal of
