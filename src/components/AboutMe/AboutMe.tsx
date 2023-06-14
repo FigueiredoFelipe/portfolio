@@ -1,17 +1,15 @@
-import "./AboutMe.css";
-
 export function AboutMe() {
   return (
     <section className="flex justify-center">
       <div className="container mx-auto py-16 max-w-full flex flex-col md:flex-row w-full md:w-3/5 px-4">
-        <div className="flex items-center justify-center md:order-2">
+        <div className="flex items-center justify-center md:order-2 p-6">
           <img
             className="rounded-lg h-[18rem] w-[26rem] md:w-auto md:h-auto"
             src="https://stefantopalovicdev.vercel.app/static/media/about-img.62b47e7f183d4b4e9feb.webp"
             alt=""
           />
         </div>
-        <div className="max-w-[30rem] p-[1.5rem] md:order-1">
+        <div className="max-w-[30rem] md:order-1">
           <h1 className="text-blue-500 font-extrabold text-lg">ABOUT ME</h1>
           <h4 className="font-extrabold text-2xl">
             A dedicated Front-end React Developer based in Belo Horizonte,
