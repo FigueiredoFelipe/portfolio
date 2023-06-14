@@ -8,16 +8,16 @@ export function Navbar() {
           Felipe.dev
         </h3>
         <nav className="flex gap-6 font-semibold text-base p-4 max-w-fulln ml-auto items-end">
-          <a href="/#" className="hover:text-[#075df5]">
+          <a href="#home" className="hover:text-[#075df5] cursor-pointer">
             Home
           </a>
-          <a href="/#" className="hover:text-[#075df5]">
+          <a href="#about" className="hover:text-[#075df5] cursor-pointer">
             About
           </a>
-          <a href="/#" className="hover:text-[#075df5]">
+          <a href="#portfolio" className="hover:text-[#075df5] cursor-pointer">
             Projects
           </a>
-          <a href="/#" className="hover:text-[#075df5]">
+          <a href="#contact" className="hover:text-[#075df5] cursor-pointer">
             Contact
           </a>
         </nav>

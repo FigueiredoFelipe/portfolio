@@ -1,6 +1,6 @@
 export function Portfolio() {
   return (
-    <div className="bg-gray-100 flex justify-center">
+    <div className="bg-gray-100 flex justify-center" id="portfolio">
       <div className="container mx-auto py-12 max-w-full w-full md:w-3/5 p-4">
         <h1 className="text-blue-500 font-extrabold text-lg">PORTFOLIO</h1>
         <h2 className="font-bold text-2xl">
