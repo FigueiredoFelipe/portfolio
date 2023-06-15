@@ -9,25 +9,39 @@ import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 
 function App() {
-  const ref = useRef<HTMLDivElement>(null);
+  const homeRef = useRef<HTMLElement>(null);
+  const aboutMeRef = useRef<HTMLElement>(null);
+  const portfolioRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
 
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
+  const handleHomeClick = () => {
+    homeRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleAboutMeClick = () => {
+    aboutMeRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handlePortfolioClick = () => {
+    portfolioRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleContactClick = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <>
-      <Navbar />
-      <button
-        className="justify-center flex items-center"
-        onClick={handleClick}
-      >
-        CLICK TESTER
-      </button>
-      <Home />
-      <AboutMe />
-      <Portfolio />
-      <Contact ref={ref} />
+      <Navbar
+        handleHomeClick={handleHomeClick}
+        handleAboutMeClick={handleAboutMeClick}
+        handlePortfolioClick={handlePortfolioClick}
+        handleContactClick={handleContactClick}
+      />
+      <Home ref={homeRef} />
+      <AboutMe ref={aboutMeRef} />
+      <Portfolio ref={portfolioRef} />
+      <Contact ref={contactRef} />
       <Footer />
     </>
   );

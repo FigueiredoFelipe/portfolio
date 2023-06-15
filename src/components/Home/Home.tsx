@@ -1,10 +1,12 @@
+import { forwardRef } from "react";
+
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 import { TechStack } from "./TechStack";
 
-export function Home() {
+export const Home = forwardRef<HTMLElement>((_, ref) => {
   return (
-    <section className="font-Poppins text-gray-800" id="home">
+    <section className="font-Poppins text-gray-800" ref={ref}>
       <div className="bg-gray-100 shadow-inner py-12 p-12 justify-center">
         <div className="flex justify-center">
           <div className="max-w-[38rem]">
@@ -34,4 +36,4 @@ export function Home() {
       </div>
     </section>
   );
-}
+});
