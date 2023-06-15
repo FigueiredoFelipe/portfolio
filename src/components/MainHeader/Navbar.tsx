@@ -1,6 +1,8 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 
 export function Navbar() {
+
+
   return (
     <header className="container flex flex-wrap justify-between p-3 font-Poppins shadow-md max-w-full">
       <div className="container flex flex-wrap">

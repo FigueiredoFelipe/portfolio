@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
-import { FaMapMarkedAlt, FaMailBulk, FaForward } from "react-icons/fa";
+import { FaMapMarkedAlt, FaMailBulk } from "react-icons/fa";
 
-function Contact(props, ref) {
+function Contact(_: any, ref: React.Ref<HTMLDivElement>) {
   return (
     <div className="flex justify-center" id="contact" ref={ref}>
       <div className="container mx-auto py-16 max-w-full w-full md:w-3/5 px-4">

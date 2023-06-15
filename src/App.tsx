@@ -9,7 +9,7 @@ import { AboutMe } from "./components/AboutMe/AboutMe";
 import { Portfolio } from "./components/Portfolio/Portfolio";
 
 function App() {
-  const ref = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   const handleClick = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Navbar handleClick={handleClick} />
+      <Navbar />
       <button
         className="justify-center flex items-center"
         onClick={handleClick}
