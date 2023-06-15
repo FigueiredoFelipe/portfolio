@@ -1,8 +1,9 @@
-import { FaMapMarkedAlt, FaMailBulk } from "react-icons/fa";
+import { forwardRef } from "react";
+import { FaMapMarkedAlt, FaMailBulk, FaForward } from "react-icons/fa";
 
-export function Contact() {
+function Contact(props, ref) {
   return (
-    <div className="flex justify-center" id="contact">
+    <div className="flex justify-center" id="contact" ref={ref}>
       <div className="container mx-auto py-16 max-w-full w-full md:w-3/5 px-4">
         <h1 className="text-blue-500 font-extrabold text-lg">CONTACT</h1>
         <h2 className="font-bold text-2xl">Don't be shy! Hit me up! 👇</h2>
@@ -35,3 +36,5 @@ export function Contact() {
     </div>
   );
 }
+
+export default forwardRef(Contact);
