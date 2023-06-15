@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-
 interface NavbarProps {
   handleHomeClick: () => void;
   handleAboutMeClick: () => void;
@@ -14,11 +11,6 @@ export function Navbar({
   handlePortfolioClick,
   handleContactClick,
 }: NavbarProps) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen((prevState) => !prevState);
-  };
 
   return (
     <header className="container flex flex-wrap justify-between p-3 font-Poppins shadow-md max-w-full">
