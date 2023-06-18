@@ -18,8 +18,20 @@ export const Home = forwardRef<HTMLElement>((_, ref) => {
               based in Belo Horizonte, Brazil.
             </p>
             <div className="text-3xl flex space-x-2">
-              <FaLinkedin className="hover:fill-blue-700" />
-              <FaGithubSquare className="hover:fill-blue-700" />
+              <a
+                href="https://www.linkedin.com/in/fjnfigueiredo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="hover:fill-blue-700" />
+              </a>
+              <a
+                href="https://github.com/FigueiredoFelipe/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithubSquare className="hover:fill-blue-700" />
+              </a>
             </div>
           </div>
           <div className="flex justify-center items-center">

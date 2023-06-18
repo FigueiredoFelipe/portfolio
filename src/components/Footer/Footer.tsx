@@ -9,8 +9,20 @@ export function Footer() {
             <p className="text-white">Copyright © 2023. All rights reserved.</p>
           </div>
           <div className="text-2xl text-white flex space-x-2 pl-6 md:pl-20">
-            <FaLinkedin className="fill-white hover:scale-125 duration-300" />
-            <FaGithubSquare className="fill-white hover:scale-125 duration-300" />
+            <a
+              href="https://www.linkedin.com/in/fjnfigueiredo/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="fill-white hover:scale-125 duration-300" />
+            </a>
+            <a
+              href="https://github.com/FigueiredoFelipe/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithubSquare className="fill-white hover:scale-125 duration-300" />
+            </a>
           </div>
         </div>
       </footer>
