@@ -9,16 +9,14 @@ export const Portfolio = forwardRef<HTMLDivElement>((_, ref) => {
           Each project is a unique piece of development🧩
         </h2>
         <p className="text-gray-500 py-3">
-          As a Junior Front-End Developer, I possess an impressive arsenal of
-          skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
-          designing and maintaining responsive websites that offer a smooth user
+          As a Front-End Developer, I possess an impressive arsenal of skills in
+          HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing
+          and maintaining responsive websites that offer a smooth user
           experience. My expertise lies in crafting dynamic, engaging interfaces
           through writing clean and optimized code and utilizing cutting-edge
           development tools and techniques. I am also a team player who thrives
           in collaborating with cross-functional teams to produce outstanding
-          web applications.
-
-          A list of projects will be driven soon.
+          web applications. A list of projects will be driven soon.
         </p>
       </div>
     </div>
