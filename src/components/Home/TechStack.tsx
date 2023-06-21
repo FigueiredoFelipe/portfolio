@@ -4,7 +4,7 @@ import { SiTailwindcss, SiJavascript } from "react-icons/si";
 
 export function TechStack() {
   return (
-    <div className="flex flex-col md:flex-row bg-gray-100 justify-center text-2xl leading-6 space-x-1 py-14">
+    <div className="flex flex-col md:flex-row bg-gray-100 justify-center text-2xl leading-6 space-x-1 py-2 md:py-6">
       <span className="flex justify-center">Tech Stack |</span>
       <div className="flex flex-wrap justify-center items-center space-x-1 py-2 md:py-0">
         <FaHtml5 class="fill-red-500" />
