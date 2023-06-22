@@ -2,7 +2,7 @@ import { forwardRef } from "react";
 
 export const AboutMe = forwardRef<HTMLElement>((_, ref) => {
   return (
-    <section className="flex justify-center" id="about" ref={ref}>
+    <section className="flex justify-center" ref={ref}>
       <div className="container mx-auto py-16 max-w-full flex flex-col md:flex-row w-full md:w-3/5 px-4">
         <div className="flex items-center justify-center md:order-2 p-6">
           <img
