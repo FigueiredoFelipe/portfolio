@@ -1,4 +1,5 @@
 import { forwardRef } from "react";
+import ho1Image from "../UI/img/ho1-2-410px.png";
 
 export const AboutMe = forwardRef<HTMLElement>((_, ref) => {
   return (
@@ -6,8 +7,8 @@ export const AboutMe = forwardRef<HTMLElement>((_, ref) => {
       <div className="container mx-auto py-16 max-w-full flex flex-col md:flex-row w-full md:w-3/5 px-4">
         <div className="flex items-center justify-center md:order-2 p-6">
           <img
-            className="rounded-lg h-[18rem] w-[26rem] md:w-auto md:h-auto"
-            src="https://stefantopalovicdev.vercel.app/static/media/about-img.62b47e7f183d4b4e9feb.webp"
+            className="rounded-lg h-[13rem] md:h-60"
+            src={ho1Image}
             alt=""
           />
         </div>
@@ -17,7 +18,7 @@ export const AboutMe = forwardRef<HTMLElement>((_, ref) => {
             A dedicated Front-end React Developer based in Belo Horizonte,
             Brazil.
           </h4>
-          <p className="text-gray-500">
+          <p className="text-gray-500 py-3">
             As a Front-End Developer, I possess an impressive arsenal of skills
             in HTML, CSS, JavaScript, React, and Tailwind. I excel in designing
             and maintaining responsive websites that offer a smooth user
