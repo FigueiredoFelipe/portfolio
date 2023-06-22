@@ -9,7 +9,7 @@ export const Home = forwardRef<HTMLElement>((_, ref) => {
     <section className="font-Poppins text-gray-800 bg-gray-100 shadow-inner" ref={ref}>
       <div className="container mx-auto bg-gray-100  justify-center w-full ">
         <div className="flex flex-col md:flex-row max-w-full justify-center items-center ">
-          <div className="container mx-auto py-16 max-w-full flex flex-col md:flex-row w-full md:w-3/5 px-4">
+          <div className="container mx-auto py-16 max-w-full flex flex-col md:flex-row w-full md:w-8/12 px-4">
             <div className="flex order-2 justify-center items-center ">
               <img
                 className="rounded-full border-gray-700 border-b-gray-500 border"
