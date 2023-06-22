@@ -4,7 +4,7 @@ import ho1Image from "../UI/img/ho1-2-410px.png";
 export const AboutMe = forwardRef<HTMLElement>((_, ref) => {
   return (
     <section className="py-16" ref={ref}>
-      <div className="container mx-auto justify-center w-full">
+      <div className="container m-auto justify-center w-full">
         <div className="flex flex-col md:flex-row max-w-full justify-center">
           <div className="container mx-auto max-w-full flex flex-col md:flex-row w-full md:w-8/12 px-4">
             <div className="flex w-full justify-center items-center md:order-2 p-6">
