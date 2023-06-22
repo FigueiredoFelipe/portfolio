@@ -19,7 +19,7 @@ function Contact(_: any, ref: React.Ref<HTMLDivElement>) {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center w-full md:w-auto p-4">
+              <div className="flex items-center w-full md:w-auto p-0 md:p-4">
                 <FaMailBulk className="fill-blue-500 text-3xl" />
                 <div className="ml-2">
                   <h3 className="font-bold text-base">Mail</h3>
